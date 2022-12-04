@@ -1,29 +1,43 @@
-.title{
-    background-image: url(../src/img/upper_blackbar_edit.png);
-    min-width: 1000px;
-    background-size:100% 50px;
-}
-.bg{
+@import "react.js";
+
+body {
+    margin:0px;
+    padding: 0px;
     width:100%;
-    min-width: 1000px;
+    height:100%:
 }
-.logo{
-    height:50px;
-    vertical-align: top;
-}
-.map{
-    min-width: 1000px;
+.map {
+    min-width: 100%;
     width: 80%;
     object-fit: cover;
     display: block;
     top:10%;
-    margin:auto;
+    background-color: #ffd58e;
 }
-
-
-body{
-    min-width: 1000px;
-    background-image: url(../src/img/background.png);
-    background-size:cover;
-    overflow: scroll;
+.title{
+    background-color: black;
+    color: black;
+    display:block;
+    width: 100%;
+    height: 80px;
+    background-size:100% 50px;
 }
+.logo-image {
+    position: relative;
+}
+.logo-image-1 {
+    position: relative;
+    display:block;
+    left:1100px;
+    bottom:40px;
+}
+.bg{
+    width:100%;
+    min-width: 800px;
+}
+/* .logo{
+    height:50px;
+    vertical-align: top;
+} */
+
+/* logo 항목은 사진 이미지, div로 우선적으로 대체해 볼 예정 */
