@@ -1,5 +1,5 @@
 import styled, { keyframes } from "styled-components";
-import "style.css";
+import 'styles.css';
 
 const Flow = () => {
     return (
