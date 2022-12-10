@@ -64,22 +64,24 @@
     height:100%:
 } */
 .all-page {
-    width: 1920px;
-    height: 1080px;
+    width: 1520px;
+    height: 710px;
     margin: 0;
 }
 .map {
-    width: 80%;
+    size: 80%;
+    width: 100%;
     object-fit: cover;
     display: block;
     top:10%;
     background-color: #ffd58e;
-    margin:0;
 }
 .Container {
-    width:100%;
+    width:80%;
+    height:80%;
     display:flex;
     align-items: center;
+    justify-content: center;
 }
 
 .title {
@@ -90,9 +92,11 @@
     height: 80px;
     background-size:100% 50px;
 }
+
 .logo-image {
     position: relative;
-    margin-top:0;
+    margin:0;
+    padding:0;
 }
 .logo-image-1 {
     position: relative;
@@ -102,12 +106,10 @@
 }
 .bg{
     width:100%;
-    min-width: 800px;
     object-fit: cover;
     display: block;
     top:10%;
     background-color: #ffd58e;
-    margin:0;
 }
 .Flow > span {
     font-family: 'GmarketSans';
